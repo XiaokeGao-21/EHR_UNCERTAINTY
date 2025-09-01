@@ -1,0 +1,423 @@
+Using device: cuda
+Found 15 tasks: ['lab_hyperkalemia', 'lab_hyponatremia', 'new_hypertension', 'lab_hypoglycemia', 'guo_readmission', 'lab_thrombocytopenia', 'lab_anemia', 'new_hyperlipidemia', 'new_acutemi', 'guo_los', 'guo_icu', 'new_pancan', 'new_lupus', 'new_celiac', 'chexpert']
+Loading features...
+Processing tasks...
+
+Processing task: Age-split lab_hyperkalemia
+Age distribution in Age-split lab_hyperkalemia:
+age_group
+middle     111417
+elderly     46702
+senior      41840
+young         211
+Name: count, dtype: int64
+Age-based split: >60 years (test): 88542, <60 years (train+val): 111628
+Train samples: 89302 (<60 years, 80%)
+Val samples: 22326 (<60 years, 20%)
+Test samples: 88542 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 5 epochs
+Task Age-split lab_hyperkalemia: prob_threshold = 0.0167 (mean of all probabilities)
+  ✓ Successfully processed Age-split lab_hyperkalemia
+
+Processing task: Age-split lab_hyponatremia
+Age distribution in Age-split lab_hyponatremia:
+age_group
+middle     118573
+elderly     49684
+senior      44361
+young         219
+Name: count, dtype: int64
+Age-based split: >60 years (test): 94045, <60 years (train+val): 118792
+Train samples: 95033 (<60 years, 80%)
+Val samples: 23759 (<60 years, 20%)
+Test samples: 94045 (>60 years)
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 12 epochs
+Task Age-split lab_hyponatremia: prob_threshold = 0.2314 (mean of all probabilities)
+  ✓ Successfully processed Age-split lab_hyponatremia
+
+Processing task: Age-split new_hypertension
+Age distribution in Age-split new_hypertension:
+age_group
+middle     1936
+elderly     984
+senior      838
+young         6
+Name: count, dtype: int64
+Age-based split: >60 years (test): 1822, <60 years (train+val): 1942
+Train samples: 1553 (<60 years, 80%)
+Val samples: 389 (<60 years, 20%)
+Test samples: 1822 (>60 years)
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 8 epochs
+Task Age-split new_hypertension: prob_threshold = 0.2130 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_hypertension
+
+Processing task: Age-split lab_hypoglycemia
+Age distribution in Age-split lab_hypoglycemia:
+age_group
+middle     187494
+elderly     68139
+senior      62323
+young         208
+Name: count, dtype: int64
+Age-based split: >60 years (test): 130462, <60 years (train+val): 187702
+Train samples: 150161 (<60 years, 80%)
+Val samples: 37541 (<60 years, 20%)
+Test samples: 130462 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 5 epochs
+Task Age-split lab_hypoglycemia: prob_threshold = 0.0066 (mean of all probabilities)
+  ✓ Successfully processed Age-split lab_hypoglycemia
+
+Processing task: Age-split guo_readmission
+Age distribution in Age-split guo_readmission:
+age_group
+middle     3543
+elderly    1862
+senior     1588
+young        10
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3450, <60 years (train+val): 3553
+Train samples: 2842 (<60 years, 80%)
+Val samples: 711 (<60 years, 20%)
+Test samples: 3450 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 4 epochs
+Task Age-split guo_readmission: prob_threshold = 0.0688 (mean of all probabilities)
+  ✓ Successfully processed Age-split guo_readmission
+
+Processing task: Age-split lab_thrombocytopenia
+Age distribution in Age-split lab_thrombocytopenia:
+age_group
+middle     99638
+elderly    42330
+senior     37433
+young        217
+Name: count, dtype: int64
+Age-based split: >60 years (test): 79763, <60 years (train+val): 99855
+Train samples: 79884 (<60 years, 80%)
+Val samples: 19971 (<60 years, 20%)
+Test samples: 79763 (>60 years)
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 11 epochs
+Task Age-split lab_thrombocytopenia: prob_threshold = 0.2827 (mean of all probabilities)
+  ✓ Successfully processed Age-split lab_thrombocytopenia
+
+Processing task: Age-split lab_anemia
+Age distribution in Age-split lab_anemia:
+age_group
+middle     102535
+elderly     43686
+senior      38445
+young         214
+Name: count, dtype: int64
+Age-based split: >60 years (test): 82131, <60 years (train+val): 102749
+Train samples: 82199 (<60 years, 80%)
+Val samples: 20550 (<60 years, 20%)
+Test samples: 82131 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 7 epochs
+Task Age-split lab_anemia: prob_threshold = 0.7731 (mean of all probabilities)
+  ✓ Successfully processed Age-split lab_anemia
+
+Processing task: Age-split new_hyperlipidemia
+Age distribution in Age-split new_hyperlipidemia:
+age_group
+middle     2319
+elderly    1234
+senior      882
+young         7
+Name: count, dtype: int64
+Age-based split: >60 years (test): 2116, <60 years (train+val): 2326
+Train samples: 1860 (<60 years, 80%)
+Val samples: 466 (<60 years, 20%)
+Test samples: 2116 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 11 epochs
+Task Age-split new_hyperlipidemia: prob_threshold = 0.1151 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_hyperlipidemia
+
+Processing task: Age-split new_acutemi
+Age distribution in Age-split new_acutemi:
+age_group
+middle     3473
+elderly    1826
+senior     1528
+young        10
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3354, <60 years (train+val): 3483
+Train samples: 2786 (<60 years, 80%)
+Val samples: 697 (<60 years, 20%)
+Test samples: 3354 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 5 epochs
+Task Age-split new_acutemi: prob_threshold = 0.0450 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_acutemi
+
+Processing task: Age-split guo_los
+Age distribution in Age-split guo_los:
+age_group
+middle     3528
+elderly    1859
+senior     1598
+young        10
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3457, <60 years (train+val): 3538
+Train samples: 2830 (<60 years, 80%)
+Val samples: 708 (<60 years, 20%)
+Test samples: 3457 (>60 years)
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 10 epochs
+Task Age-split guo_los: prob_threshold = 0.3412 (mean of all probabilities)
+  ✓ Successfully processed Age-split guo_los
+
+Processing task: Age-split guo_icu
+Age distribution in Age-split guo_icu:
+age_group
+middle     3267
+elderly    1731
+senior     1484
+young         9
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3215, <60 years (train+val): 3276
+Train samples: 2620 (<60 years, 80%)
+Val samples: 656 (<60 years, 20%)
+Test samples: 3215 (>60 years)
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 1 epochs
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 16 epochs
+Task Age-split guo_icu: prob_threshold = 0.0591 (mean of all probabilities)
+  ✓ Successfully processed Age-split guo_icu
+
+Processing task: Age-split new_pancan
+Age distribution in Age-split new_pancan:
+age_group
+middle     3566
+elderly    1862
+senior     1572
+young        11
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3434, <60 years (train+val): 3577
+Train samples: 2861 (<60 years, 80%)
+Val samples: 716 (<60 years, 20%)
+Test samples: 3434 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 6 epochs
+Task Age-split new_pancan: prob_threshold = 0.0242 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_pancan
+
+Processing task: Age-split new_lupus
+Age distribution in Age-split new_lupus:
+age_group
+middle     3563
+elderly    1866
+senior     1598
+young        11
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3464, <60 years (train+val): 3574
+Train samples: 2859 (<60 years, 80%)
+Val samples: 715 (<60 years, 20%)
+Test samples: 3464 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 9 epochs
+Task Age-split new_lupus: prob_threshold = 0.0039 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_lupus
+
+Processing task: Age-split new_celiac
+Age distribution in Age-split new_celiac:
+age_group
+middle     3660
+elderly    1887
+senior     1571
+young        11
+Name: count, dtype: int64
+Age-based split: >60 years (test): 3458, <60 years (train+val): 3671
+Train samples: 2936 (<60 years, 80%)
+Val samples: 735 (<60 years, 20%)
+Test samples: 3458 (>60 years)
+no improvement for 1 epochs
+no improvement for 2 epochs
+no improvement for 3 epochs
+early stopping triggered after 5 epochs
+Task Age-split new_celiac: prob_threshold = 0.0031 (mean of all probabilities)
+  ✓ Successfully processed Age-split new_celiac
+
+Processing task: Age-split chexpert
+  ✗ Error processing Age-split chexpert: 'chexpert'
+
+Successfully processed 14 tasks
+Failed tasks: ['chexpert']
+
+============================================================
+1. CI-BASED UNCERTAINTY ANALYSIS
+============================================================
+Analyzing CI effects for Age-split lab_hyperkalemia...
+Task: Age-split lab_hyperkalemia, Mean labels: 0.019, Probability threshold: 0.017
+Analyzing CI effects for Age-split lab_hyponatremia...
+Task: Age-split lab_hyponatremia, Mean labels: 0.280, Probability threshold: 0.231
+Analyzing CI effects for Age-split new_hypertension...
+Task: Age-split new_hypertension, Mean labels: 0.131, Probability threshold: 0.213
+Analyzing CI effects for Age-split lab_hypoglycemia...
+Task: Age-split lab_hypoglycemia, Mean labels: 0.013, Probability threshold: 0.007
+Analyzing CI effects for Age-split guo_readmission...
+Task: Age-split guo_readmission, Mean labels: 0.116, Probability threshold: 0.069
+Analyzing CI effects for Age-split lab_thrombocytopenia...
+Task: Age-split lab_thrombocytopenia, Mean labels: 0.333, Probability threshold: 0.283
+Analyzing CI effects for Age-split lab_anemia...
+Task: Age-split lab_anemia, Mean labels: 0.662, Probability threshold: 0.773
+Analyzing CI effects for Age-split new_hyperlipidemia...
+Task: Age-split new_hyperlipidemia, Mean labels: 0.122, Probability threshold: 0.115
+Analyzing CI effects for Age-split new_acutemi...
+Task: Age-split new_acutemi, Mean labels: 0.056, Probability threshold: 0.045
+Analyzing CI effects for Age-split guo_los...
+Task: Age-split guo_los, Mean labels: 0.251, Probability threshold: 0.341
+Analyzing CI effects for Age-split guo_icu...
+Task: Age-split guo_icu, Mean labels: 0.042, Probability threshold: 0.059
+Analyzing CI effects for Age-split new_pancan...
+Task: Age-split new_pancan, Mean labels: 0.039, Probability threshold: 0.024
+Analyzing CI effects for Age-split new_lupus...
+Task: Age-split new_lupus, Mean labels: 0.022, Probability threshold: 0.004
+Analyzing CI effects for Age-split new_celiac...
+Task: Age-split new_celiac, Mean labels: 0.019, Probability threshold: 0.003
+Saving CI analysis results...
+Saving improved results to Excel file...
+  Creating Sheet 1: Comprehensive Results
+Results saved to: /hpc/group/engelhardlab/xg97/results_age_0901/ci_analysis/Age_split_ci_width_analysis_results.csv
+  ✓ CI analysis Excel saved
+Creating CI analysis plots...
+Improved CI width analysis plot saved for Age-split lab_hyperkalemia
+Improved CI width analysis plot saved for Age-split lab_hyponatremia
+Improved CI width analysis plot saved for Age-split new_hypertension
+Improved CI width analysis plot saved for Age-split lab_hypoglycemia
+Improved CI width analysis plot saved for Age-split guo_readmission
+Improved CI width analysis plot saved for Age-split lab_thrombocytopenia
+Improved CI width analysis plot saved for Age-split lab_anemia
+Improved CI width analysis plot saved for Age-split new_hyperlipidemia
+Improved CI width analysis plot saved for Age-split new_acutemi
+Improved CI width analysis plot saved for Age-split guo_los
+Improved CI width analysis plot saved for Age-split guo_icu
+Improved CI width analysis plot saved for Age-split new_pancan
+Improved CI width analysis plot saved for Age-split new_lupus
+Improved CI width analysis plot saved for Age-split new_celiac
+Saved entropy remove rates analysis → /hpc/group/engelhardlab/xg97/results_age_0901/entropy_analysis/Age_split_entropy_remove_rates_analysis.csv
+Saved metrics_by_e_v → /hpc/group/engelhardlab/xg97/results_age_0901/entropy_analysis/Age_split_main_uncertainty_metrics_summary.csv
+
+============================================================
+3. INDIVIDUAL TASK BOXPLOTS
+============================================================
+Creating individual CI whisker boxplots (CI=95%)...
+✓ CI whisker boxplot saved: Age-split lab_hyperkalemia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split lab_hyponatremia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_hypertension_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split lab_hypoglycemia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split guo_readmission_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split lab_thrombocytopenia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split lab_anemia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_hyperlipidemia_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_acutemi_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split guo_los_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split guo_icu_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_pancan_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_lupus_ci95%_whisker_boxplot.png
+✓ CI whisker boxplot saved: Age-split new_celiac_ci95%_whisker_boxplot.png
+
+============================================================
+4. CI COMPARISON BOXPLOTS
+============================================================
+Creating CI comparison boxplots (75% vs 90%)...
+Creating CI comparison plots ([0.75, 0.9])...
+✓ CI comparison plot saved: Age-split lab_hyperkalemia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split lab_hyponatremia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_hypertension_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split lab_hypoglycemia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split guo_readmission_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split lab_thrombocytopenia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split lab_anemia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_hyperlipidemia_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_acutemi_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split guo_los_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split guo_icu_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_pancan_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_lupus_ci_comparison_75_90.png
+✓ CI comparison plot saved: Age-split new_celiac_ci_comparison_75_90.png
+CI comparison plots saved to: /hpc/group/engelhardlab/xg97/results_age_0901/boxplots_comparison
+Creating CI comparison boxplots (90% vs 95%)...
+Creating CI comparison plots ([0.9, 0.95])...
+✓ CI comparison plot saved: Age-split lab_hyperkalemia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split lab_hyponatremia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_hypertension_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split lab_hypoglycemia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split guo_readmission_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split lab_thrombocytopenia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split lab_anemia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_hyperlipidemia_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_acutemi_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split guo_los_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split guo_icu_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_pancan_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_lupus_ci_comparison_90_95.png
+✓ CI comparison plot saved: Age-split new_celiac_ci_comparison_90_95.png
+CI comparison plots saved to: /hpc/group/engelhardlab/xg97/results_age_0901/boxplots_comparison
+
+============================================================
+ANALYSIS COMPLETE!
+============================================================
+Results saved to: /hpc/group/engelhardlab/xg97/results_age_0901
+
+Generated outputs:
+📊 CI Analysis:
+  - /hpc/group/engelhardlab/xg97/results_age_0901/ci_analysis/ci_width_analysis_results.xlsx
+  - /hpc/group/engelhardlab/xg97/results_age_0901/ci_analysis/plots/*_improved_ci_analysis.png
+
+📈 Entropy Analysis:
+
+📦 Individual Boxplots:
+  - /hpc/group/engelhardlab/xg97/results_age_0901/boxplots_single/*_ci95%_whisker_boxplot.png
+
+🔄 Comparison Boxplots:
+  - /hpc/group/engelhardlab/xg97/results_age_0901/boxplots_comparison/*_ci_comparison_75_90.png
+  - /hpc/group/engelhardlab/xg97/results_age_0901/boxplots_comparison/*_ci_comparison_90_95.png
+
+📋 Summary Statistics:
+  - /hpc/group/engelhardlab/xg97/results_age_0901/main_metrics_summary.csv
+
+Processed 14 tasks successfully.
+Failed tasks: ['chexpert']
